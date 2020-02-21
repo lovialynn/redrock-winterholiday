@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color:#1a1a1a
+}
+input,button{
+    outline: none;
+    border: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 100;
+}
+button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.row{
+    display: flex;
+}
+.bigbanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    width: 1032px;
+    justify-content: space-between;
+    height: 53px;
+    align-items: center;
+    
+}
+.bannerImg{
+    width: 64px;
+    height: 30px;
+    cursor: pointer;
+}
+.lineL{
+    margin: 0 20px;
+    width: 1px;
+    height: 30px;
+    background-color: #dbdada;
+}
+.lineL2{
+    border: 1px solid #dbdada;
+    height: 20px;
+    margin: 0 10px;
+}
+.bannerCenter{
+    font-weight: 500;
+}
+.bannerBtn{
+    color:#dbdada ;
+    background-color: white;
+    border: 1px solid #dbdada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1px 10px;
+    border-radius: 3px;
+}
+.bannerMore{
+ padding-left: 20px;
+}
+.lineW{
+    width: 100%;
+    height: 1px;
+    background-color: #dbdada;
+}
+.main{
+    margin: 47px;
+}
+.mainAdd{
+    background-color: #f6f6f6;
+    width: 660px;
+    height: 192px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.mainAddh4{
+    color:rgba(26, 26, 26, 0.397);
+}
+.mainAddheader{
+    width: 100%;
+   height: 45px;
+   padding: 15px 0;
+}
+.mainAddheader::placeholder{
+    font-size: 32px;
+
+}
+.mainAddheader{
+    font-size: 32px;
+}
+.questionLAa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.questionLAa div:nth-child(1){
+    display: flex;
+    align-items: center;
+}
+.questionLAa button{
+    padding-right: 5px;
+    color: #8590a6;
+}
+.writeArt{
+    width: 100%;
+    height: 500px;
+}
+.writeArt{
+    outline: none;
+    padding-top: 20px;
+}
+.writeArt:empty::before{
+    content: '请输入正文';
+    color: #8590a6;
+}

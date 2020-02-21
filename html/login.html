@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>知乎-有问题，上知乎</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body class="body">
+    <div class="main">
+        <div class="maintop">
+            <img src="../img/login/v2-a47051e92cf74930bedd7469978e6c08_hd.png" class="maintop_img">
+            <div class="login">
+                <div class="loginBanner">
+                    <div class="loginBannerleft">
+                        <div class="loginBanner1active" id="loginBannerleft1">免密码登录</div>
+                        <div class="loginBanner1" id="loginBannerleft2">密码登录</div>
+                    </div>
+                    <div>
+                        <img class="loginBannerimg" src="../img/login/二维码.png">
+                        <div class="triangle_left"></div>
+                    </div>
+                </div>
+                <div class="bigloginInp row">
+                    <div class="loginInp">
+                        <div>
+                            <div class="loginInpnum row">
+                                <button class="loginInpnum_area">中国 +86
+                                    <div>
+                                        <div><i class="up"></i></div>
+                                        <div><i class="down"></i></div>
+                                    </div>
+                                </button>
+                                <div class="longline"></div>
+                                <input placeholder="手机号" class="loginInpnumr">
+                            </div>
+                            <div class="wideline"></div>
+                            <div class="verCode">
+                                <div class="verCoderow">
+                                    <input placeholder="验证码" class="loginInppass3">
+                                    <img class="verCode2">
+                                </div>
+                                <div class="wideline"></div>
+                            </div>
+
+                            <div class="loginInppass">
+                                <input placeholder="输入6位短信验证码" class="loginInppass1">
+                                <h5 class="loginInppass2">获取短信验证码</h5>
+                            </div>
+                            <div class="wideline"></div>
+                            <div class="login3">接收语音码</div>
+                            <div class="loginBtn">登录/注册</div>
+                        </div>
+                    </div>
+                    <div class="loginInp2">
+                        <div>
+                            <div class="loginInpnum row">
+                                <input placeholder="手机号或邮箱" class="loginInppass1">
+                            </div>
+                            <div class="wideline"></div>
+                            <div class="loginInppass loginInp2code">
+                                <input placeholder="密码" type="password" class="loginInppass1 loginInp2code1">
+                                <img src="../img/login/不可见.png" class="view">
+                            </div>
+                            <div class="wideline"></div>
+                            <div class="verCode">
+                                <div class="verCoderow">
+                                    <input placeholder="验证码" class="loginInppass3">
+                                    <img class="verCode2">
+                                </div>
+                                <div class="wideline"></div>
+                            </div>
+                            <div class="brow loginInp23">
+                                <h5 class="loginInppass2">海外手机号使用</h5>
+                                <h5 class="">忘记密码？</h5>
+                            </div>
+                            
+                            <div class="loginBtn">登录/注册</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="loginBottom">
+                    <div>
+                        <h5>未注册手机验证后自动登录</h5>
+                        <h5>注册即代表同意《知乎协议》《隐私保护指引》</h5>
+                    </div>
+                    <h5>注册机构号</h5>
+                </div>
+            </div>
+        </div>
+        <div class="maincenter">
+            <h4>社交账号登录</h4>
+            <div class="maincenterR">
+                <a
+                    href="https://open.weixin.qq.com/connect/qrconnect?appid=wx268fcfe924dcb171&redirect_uri=https%3A%2F%2Fwww.zhihu.com%2Foauth%2Fcallback%2Fwechat%3Faction%3Dlogin%26from%3D&response_type=code&scope=snsapi_login&state=47716132504b526f73454e7a554e41584a6332384630454a446e776b32337546#wechat">
+
+                    <img src='../img/login/微信.png'>
+                    <h4>微信</h4>
+
+                </a>
+                <a
+                    href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&scope=get_user_info%2Cget_info%2Cadd_t%2Cadd_pic_t%2Cget_other_info%2Cget_fanslist%2Cget_idollist%2Cadd_idol%2Cadd_share&state=47716132504b526f73454e7a554e41584a6332384630454a446e776b32337546&redirect_uri=https%3A%2F%2Fwww.zhihu.com%2Foauth%2Fcallback%2Fqqconn%3Faction%3Dlogin%26from%3D&response_type=code&client_id=100490701">
+
+                    <img src='../img/login/qq.png'>
+                    <h4>QQ</h4>
+
+                </a>
+                <a
+                    href="https://api.weibo.com/oauth2/authorize?scope=email&state=47716132504b526f73454e7a554e41584a6332384630454a446e776b32337546&redirect_uri=http%3A%2F%2Fwww.zhihu.com%2Foauth%2Fcallback%2Fsina&response_type=code&client_id=3063806388">
+
+                    <img src='../img/login/微博.png'>
+                    <h4>微博</h4>
+
+                </a>
+            </div>
+        </div>
+        <div class="mainbottom">
+            <img src="../img/login/知乎.jpg">
+            <h4>下载知乎App</h4>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="bottom1">
+            <a>知乎专栏</a>
+            <a>圆桌</a>
+            <a>发现</a>
+            <a>联系我们</a>
+            <a>发现</a>
+            <a>来知乎工作</a>
+            <a>注册机构号</a>
+        </div>
+        <div class="bottom2">
+            <h5 class="bottom22">© 2020 知乎</h5>
+            <a>京 ICP 证 110745 号</a>
+            <a>京 ICP 备 13052560 号 - 1</a>
+            <a class="row">
+                <img src="../img/login/v2-d0289dc0a46fc5b15b3363ffa78cf6c7.png" class="gongan">
+                <h4>京公网安备 11010802010035 号</h4>
+            </a>
+            <a>联系我们</a>
+            <a>发现</a>
+            <a>来知乎工作</a>
+            <a>注册机构号</a>
+        </div>
+        <div class="bottom1">
+            <a>侵权举报</a>
+            <a>网上有害信息举报专区</a>
+            <a>儿童色情信息举报专区</a>
+            <a>违法和不良信息举报</a>
+            <a>010-82716601</a>
+        </div>
+    </div>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

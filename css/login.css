@@ -1,0 +1,451 @@
+@font-face {
+    font-family: "pingfang";
+    src: url('../typeface/苹方字体.ttf')
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 100;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button,
+input {
+    outline: none;
+}
+
+.big {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brow {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-image: url(../img/login/sign_bg.db29b0fb.png);
+    background-repeat: no-repeat;
+    background-color: #b8e5f8;
+    background-size: cover;
+    overflow: auto;
+    font-family: 'pingfang';
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.gongan {
+    width: 20px;
+    height: 20px;
+}
+
+.main {
+    height: calc(100% - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 688px
+}
+
+.maintop_img {
+    width: 128px;
+    height: 81px;
+}
+
+.maintop {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login {
+    width: 400px;
+    /* height: 375px; */
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.loginBanner {
+    display: flex;
+    margin-left: 20px;
+}
+
+.loginBannerleft {
+    display: flex;
+    margin-top: 20px;
+}
+
+.loginBanner1 {
+    font-size: 16px;
+    margin-right: 24px;
+    cursor: pointer;
+    color: #444444;
+}
+
+.loginBanner1active {
+    font-size: 16px;
+    margin-right: 24px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #1a1a1a;
+    display: inline-block;
+    height: auto;
+    height: 60px;
+}
+
+.loginBanner1active::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #0084ff;
+    margin-top: 20px;
+}
+
+.loginBannerimg {
+    width: 52px;
+    height: 52px;
+    margin-left: 136px;
+    position: absolute;
+}
+
+.triangle_left {
+    margin-left: 136px;
+    position: relative;
+    width: 0;
+    height: 0;
+    border-bottom: 52px solid rgb(255, 255, 255);
+    border-right: 52px solid transparent;
+}
+
+.loginInpnum_area {
+    border: none;
+    background-color: white;
+    color: #a0a0a0;
+    display: flex;
+}
+
+.loginInpnum_area>div {
+    margin-left: 8px;
+    margin-top: 7px;
+}
+
+.loginInpnum_area div>div {
+    margin-top: -10px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.up {
+    border: solid #a0a0a0;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+}
+
+.down {
+    border: solid #a0a0a0;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+}
+
+.longline {
+    width: 1.5px;
+    height: 20px;
+    background-color: #dddddd;
+    margin-left: 20px;
+}
+
+.bigloginInp {
+    overflow: hidden;
+    
+}
+
+.loginInp {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.loginInp2 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginInp23 {
+    margin-top: 20px;
+}
+
+.loginInp23 h5 {
+    cursor: pointer;
+}
+
+.loginInp>div {
+    width: 350px;
+    margin: 26px;
+}
+
+.loginInp2>div {
+    width: 350px;
+    margin: 26px;
+}
+
+.loginInpnumr {
+    border: none;
+    margin-left: 20px;
+    color: #a0a0a0;
+}
+.loginInpnumrchange {
+    border: none;
+    margin-left: 20px;
+    color: #a0a0a0;
+}
+.loginInpnumrchange::placeholder{
+    color: red;
+}
+
+
+.wideline {
+    width: 350px;
+    height: 1.2px;
+    background-color: #dddddd;
+    margin-top: 10px;
+}
+
+.loginInppass1 {
+    border: none;
+    color: #a0a0a0;
+}
+.loginInppass1change{
+    border: none;
+    color: #a0a0a0;
+}
+.loginInppass3{
+    border: none;
+    color: #a0a0a0;
+}
+.verCode{
+  
+    justify-content: space-between;
+    display: none;
+    width: 100%;
+}
+.verCoderow{  
+    margin-top: 20px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.verCode2{
+    width: 50px;
+    height: 30px;
+    
+}
+.loginInppass{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.loginInppass2 {
+    font-weight: 100;
+    color: #0570d4;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.loginInppass2:hover {
+    color: #a0a0a0;
+}
+
+.loginInppass1change::placeholder,.loginInp2code1change::placeholder{
+    color: red;
+}
+.login3 {
+    font-size: 14px;
+    color: #a0a0a0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login3:hover {
+    color: #838282;
+}
+
+.loginBtn {
+    width: 100%;
+    background-color: #0084ff;
+    height: 34px;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.loginBtn:hover {
+    background-color: #0570d4;
+}
+
+.loginBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec;
+    width: 100%;
+    height: 60px;
+    /* margin-top: 31px; */
+    border-radius: 0 0 3px 3px;
+}
+
+.loginBottom h5 {
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.loginBottom div>h5 {
+    color: #a0a0a0;
+
+}
+
+.loginBottom>h5 {
+    color: #0570d4
+}
+
+.maincenter {
+    width: 400px;
+    height: 60px;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.maincenter>h4 {
+    color: #a0a0a0;
+    cursor: pointer;
+}
+
+.bottom1 {
+    text-align: center;
+}
+
+.bottom2 {
+    display: flex;
+    justify-content: center;
+}
+
+.maincenterR {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
+
+.maincenterR a {
+    display: flex;
+}
+
+.maincenterR a>img {
+    width: 18px;
+    height: 18px;
+}
+
+.mainbottom {
+    width: 400px;
+    height: 42px;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mainbottom img {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.mainbottom h4 {
+    margin-left: 5px;
+    color: #0084ff;
+}
+
+.bottom {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottom div a:not(:last-child):after {
+    content: " \B7 ";
+    white-space: pre;
+    display: inline-block;
+}
+
+.bottom div>a {
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.bottom22 {
+    color: white;
+}
+
+.bottom22::after {
+    content: " \B7 ";
+    white-space: pre;
+    display: inline-block;
+
+
+}
